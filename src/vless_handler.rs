@@ -18,6 +18,7 @@ use crate::vless_message_stream::VlessMessageStream;
 pub struct VlessTcpServerHandler {
     user_id: Box<[u8]>,
     udp_enabled: bool,
+    tcp_enabled: bool,
 }
 
 impl VlessTcpServerHandler {
